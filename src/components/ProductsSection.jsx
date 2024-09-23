@@ -3,22 +3,22 @@ import warehouseImage from "/assets/warehouse.jpg";
 
 const productsLeft = [
   {
-    src: "/assets/pexels-goumbik-518525.jpg",
+    src: "public/assets/fruits.jpg",
     alt: "Fruits & Vegetables",
     text: "Fruits & vegetables",
   },
   {
-    src: "/assets/pexels-janetrangdoan-936611.jpg",
+    src: "public/assets/eggs.jpg",
     alt: "Poultry & Meat",
     text: "Poultry & Meat",
   },
   {
-    src: "/assets/pexels-jaradahfish-3640451.jpg",
+    src: "public/assets/icecream.jpg",
     alt: "Ice Creams",
     text: "Ice-creams",
   },
   {
-    src: "/assets/pexels-monserratsoldu-3821250.jpg",
+    src: "public/assets/fish.jpg",
     alt: "Sea Food",
     text: "Sea Food",
   },
@@ -26,22 +26,22 @@ const productsLeft = [
 
 const productsRight = [
   {
-    src: "/assets/pexels-pixabay-33239.jpg",
+    src: "public/assets/chochlate.jpg",
     alt: "Confectioneries",
     text: "Confectioneries including & baked products",
   },
   {
-    src: "/assets/pexels-pixabay-208512.jpg",
+    src: "public/assets/cookedFood.jpg",
     alt: "Ready-to-Cook",
     text: "Ready-to-cook food products",
   },
   {
-    src: "/assets/pexels-roman-odintsov-5837092.jpg",
+    src: "public/assets/butter.jpg",
     alt: "Dairy Products",
     text: "Dairy products including butter & cheese",
   },
   {
-    src: "/assets/pexels-teejay-1362534.jpg",
+    src: "public/assets/medicine.jpg",
     alt: "Healthcare",
     text: "Healthcare & Pharmaceutical products",
   },

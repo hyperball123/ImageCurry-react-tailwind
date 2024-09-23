@@ -2,43 +2,43 @@ import React from "react";
 
 const products = [
   {
-    src: "/assets/pexels-janetrangdoan-936611.jpg",
-    alt: "fruits-and-vegetables",
-    text: "Fruits & Vegetables",
+    src: "public/assets/fruits.jpg",
+    alt: "Fruits & Vegetables",
+    text: "Fruits & vegetables",
   },
   {
-    src: "/assets/pexels-goumbik-518525.jpg",
-    alt: "eggs",
+    src: "public/assets/eggs.jpg",
+    alt: "Poultry & Meat",
     text: "Poultry & Meat",
   },
   {
-    src: "/assets/pexels-teejay-1362534.jpg",
-    alt: "ice-cream",
-    text: "Ice Creams",
+    src: "public/assets/icecream.jpg",
+    alt: "Ice Creams",
+    text: "Ice-creams",
   },
   {
-    src: "/assets/pexels-jaradahfish-3640451.jpg",
-    alt: "fish",
+    src: "public/assets/fish.jpg",
+    alt: "Sea Food",
     text: "Sea Food",
   },
   {
-    src: "/assets/pexels-pixabay-33239.jpg",
-    alt: "chocolate",
-    text: "Confectioneries including chocolates & baked products",
+    src: "public/assets/chochlate.jpg",
+    alt: "Confectioneries",
+    text: "Confectioneries including & baked products",
   },
   {
-    src: "/assets/pexels-roman-odintsov-5837092.jpg",
-    alt: "cooked-food",
+    src: "public/assets/cookedFood.jpg",
+    alt: "Ready-to-Cook",
     text: "Ready-to-cook food products",
   },
   {
-    src: "/assets/pexels-monserratsoldu-3821250.jpg",
-    alt: "butter",
+    src: "public/assets/butter.jpg",
+    alt: "Dairy Products",
     text: "Dairy products including butter & cheese",
   },
   {
-    src: "/assets/pexels-pixabay-208512.jpg",
-    alt: "medicine",
+    src: "public/assets/medicine.jpg",
+    alt: "Healthcare",
     text: "Healthcare & Pharmaceutical products",
   },
 ];
@@ -48,7 +48,6 @@ function ProductsSectionMobile() {
     <div className="bg-[#235daef9] w-full px-4 py-8">
       <div className="grid grid-cols-1 gap-6">
         {products.map((product, index) => {
-
           return (
             <div className="flex items-end text-[0.7rem] relative" key={index}>
               <div className="bg-blue-100 rounded-full p-1 flex items-center mr-4 z-10">

@@ -6,14 +6,16 @@ function TabSection() {
     <div className="bg-[#235daef9] rounded-2xl p-6 md:p-10 flex flex-col sm-md:flex-row items-center sm-md:items-start space-y-6 sm-md:space-y-0 sm-md:space-x-10">
       <div className="w-full sm-md:w-1/2 h-full">
         <img
-          src="\assets\warehouse.jpg"
+          src="public/assets/warehouse.jpg"
           alt="Warehouse"
           className="rounded-2xl w-full h-full"
         />
       </div>
 
       <div className="w-full h-full sm-md:w-1/2 text-white px-2 ml-2">
-        <h3 className="text-lg font-semibold mt-6 mb-12">OUR WAREHOUSES FEATURE:</h3>
+        <h3 className="text-lg font-semibold mt-6 mb-12">
+          OUR WAREHOUSES FEATURE:
+        </h3>
         <ul className="space-y-3 text-sm xl:text-xl flex flex-col gap-6 h-full justify-around font-light">
           <li className="flex items-center">
             <span className="text-blue-400 mr-2">
