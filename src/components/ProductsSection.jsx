@@ -3,22 +3,22 @@ import warehouseImage from "/assets/warehouse.jpg";
 
 const productsLeft = [
   {
-    src: "public/assets/fruits.jpg",
+    src: "assets/fruits.jpg",
     alt: "Fruits & Vegetables",
     text: "Fruits & vegetables",
   },
   {
-    src: "public/assets/eggs.jpg",
+    src: "assets/eggs.jpg",
     alt: "Poultry & Meat",
     text: "Poultry & Meat",
   },
   {
-    src: "public/assets/icecream.jpg",
+    src: "assets/icecream.jpg",
     alt: "Ice Creams",
     text: "Ice-creams",
   },
   {
-    src: "public/assets/fish.jpg",
+    src: "assets/fish.jpg",
     alt: "Sea Food",
     text: "Sea Food",
   },
@@ -26,22 +26,22 @@ const productsLeft = [
 
 const productsRight = [
   {
-    src: "public/assets/chochlate.jpg",
+    src: "assets/chochlate.jpg",
     alt: "Confectioneries",
     text: "Confectioneries including & baked products",
   },
   {
-    src: "public/assets/cookedFood.jpg",
+    src: "assets/cookedFood.jpg",
     alt: "Ready-to-Cook",
     text: "Ready-to-cook food products",
   },
   {
-    src: "public/assets/butter.jpg",
+    src: "assets/butter.jpg",
     alt: "Dairy Products",
     text: "Dairy products including butter & cheese",
   },
   {
-    src: "public/assets/medicine.jpg",
+    src: "assets/medicine.jpg",
     alt: "Healthcare",
     text: "Healthcare & Pharmaceutical products",
   },

@@ -5,7 +5,7 @@ function Header() {
     <header
       className=" text-center py-4 border-b text-white text-xl font-semibold"
       style={{
-        backgroundImage: `url('/assets/warehouse.jpg')`,
+        backgroundImage: `url('assets/warehouse.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "200px",

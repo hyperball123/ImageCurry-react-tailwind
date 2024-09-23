@@ -6,7 +6,7 @@ function TabSection() {
     <div className="bg-[#235daef9] rounded-2xl p-6 md:p-10 flex flex-col sm-md:flex-row items-center sm-md:items-start space-y-6 sm-md:space-y-0 sm-md:space-x-10">
       <div className="w-full sm-md:w-1/2 h-full">
         <img
-          src="public/assets/warehouse.jpg"
+          src="assets/warehouse.jpg"
           alt="Warehouse"
           className="rounded-2xl w-full h-full"
         />
